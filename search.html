@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link href="styles/main.css" rel="stylesheet"/>
+    <link rel="icon" type="image/png" href="images/favicon-logo.png"/>
+    <title id="title"></title>
+</head>
+<body>
+    <header>
+            <div class="search-header">
+                <div id="small-logo"><a href="index.html"><img src="images/boggle-logo.svg"/></a></div>
+                <div class="searchbar">
+                    <div id="searchbox-icon"><img src="images/magnifying-glass-svgrepo-com.svg"></div>
+                    <form action="search.html" method="get">
+                        <input type="text" id="input" name="q" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                    </form>
+                </div>
+            </div>
+            <hr style="border: none;background-color:#dadce0;height:1px;">
+    </header>
+    <main>
+        <div style="margin-left:10%; margin-top:2%; width:50%"> 
+            По запросу <span id="fromquery"></span> нічого не знайдено :(
+        </div>
+       
+    </main>
+
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const query = params.get("q");
+    document.getElementById("fromquery").textContent= query
+    document.getElementById("input").value= query
+    document.getElementById("title").textContent = query
+  </script>
+</body>
+</html>

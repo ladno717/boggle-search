@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="600" height="160" viewBox="0 0 600 160" aria-labelledby="title desc" role="img">
+  <title id="title">Boggle logo — multicolored wordmark</title>
+
+
+  <defs>
+
+    <style>
+      .logoLetter {
+        font-family: "Product Sans", "Montserrat","Poppins", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+        font-weight: 630;
+        font-size: 120px;
+        dominant-baseline: hanging;
+      }
+    </style>
+  </defs>
+
+  <text class="logoLetter" x="28"  y="18" fill="#4285F4">B</text>
+  <text class="logoLetter" x="100" y="18" fill="#EA4335">o</text>
+  <text class="logoLetter" x="170" y="18" fill="#FBBC05">g</text>
+  <text class="logoLetter" x="240" y="18" fill="#4285F4">g</text>
+  <text class="logoLetter" x="310" y="18" fill="#34A853">l</text>
+  <text class="logoLetter" x="335" y="18" fill="#EA4335">e</text>
+</svg>
